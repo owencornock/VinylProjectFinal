@@ -29,10 +29,51 @@
         </div>
         <div>
             <form>
-                <h2>Read One Vinyl</h2>
+                <h2>Find Vinyl By ID</h2>
                 <input type="number" id="inputId" class="form-control mt-2" placeholder="Item ID" />
                 <button type="button" class="btn btn-primary mt-2" id="buttonRead">ID READ</button>
                 <ul id="newOutput"></ul>
+            </form>
+        </div>
+        <div>
+            <form>
+                <h2>Find artist</h2>
+                <input type="text" id="inputFindArtist" class="form-control mt-2" placeholder="Artist"/>
+                <button type="button" class="btn btn-primary mt-2" id="buttonArtist">Find Artist</button>
+                <ul id="artistOutput"></ul>
+            </form>
+        </div>
+        <div>
+            <form>
+                <h2>Find Album</h2>
+                <input type="text" id="inputFindAlbum" class="form-control mt-2" placeholder="Album"/>
+                <button type="button" class="btn btn-primary mt-2" id="buttonAlbum">Find Album</button>
+                <ul id="albumOutput"></ul>
+            </form>
+        </div>
+        <div>
+            <form>
+                <h2>Find Size</h2>
+                <input type="number" id="inputFindSize" class="form-control mt-2" placeholder="Vinyl Size" />
+                <button type="button" class="btn btn-primary mt-2" id="buttonSize">Find Size</button>
+                <ul id="sizeOutput"></ul>
+            </form>
+        </div>
+        <div>
+            <form>
+                <h2>Update Vinyl</h2>
+                <input type="number" id="inputUpdateId" class="form-control mt-2" placeholder="Vinyl ID"/>
+                <input type="text" id="inputUpdateArtist" class="form-control mt-2" placeholder="Artist Name"/>
+                <input type="text" id="inputUpdateAlbum" class="form-control mt-2" placeholder="Album Name"/>
+                <input type="number" id="inputUpdateSize" class="form-control mt-2" placeholder="Vinyl Size"/>
+                <button type="button" class="btn btn-primary mt-2" id="buttonUpdate">Update</button>
+            </form>
+        </div>
+        <div>
+            <form>
+                <h2>Delete Vinyl</h2>
+                <input type="number" id="inputDeleteId" class="form-control mt-2" placeholder="Vinyl ID" />
+                <button type="button" class="btn btn-primary mt-2" id="buttonDelete">Delete</button>
             </form>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
