@@ -38,5 +38,23 @@ const get = () => {
         console.log(err);
       });
   }
+
+  const getNew = (id) => {
+    DOM.listOutput.innerHTML = ``;
+  
+    axios.get(`http://localhost:8080/get/${id}`)
+      .then((response) => {
+        if (!Array.isArray(response.data)) {
+          writeItem(response.data);
+        } else {
+          for (let item of response.data) {
+            writeItem(item);
+          }
+        }
+      }).catch((err) => {
+        console.log(err);
+      });
+  }
   DOM.buttonReadAll.onclick = () => get();
   DOM.buttonCreate.onclick = () => post();
+  DOM.buttonRead.onclick = () => getNew(DOM.inputId.value);

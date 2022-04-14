@@ -4,3 +4,6 @@ export const inputSize = document.getElementById(`inputSize`);
 export const buttonCreate = document.getElementById(`buttonCreate`);
 export const buttonReadAll = document.getElementById(`buttonReadAll`);
 export const listOutput = document.getElementById(`listOutput`);
+export const inputId = document.getElementById(`inputId`);
+export const newOutput = document.getElementById(`newOutput`);
+export const buttonRead = document.getElementById(`buttonRead`);
