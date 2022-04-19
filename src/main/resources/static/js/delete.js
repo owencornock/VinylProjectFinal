@@ -10,10 +10,10 @@ const writeItem = item => {
 }
 const deleteId = (id) => {
     axios.delete(`http://localhost:8080/remove/${id}`, { id: DOM.inputDeleteId.value })
-    .then((response) => {
-        console.log(response);
-    }).catch((err) => {
-        console.log(err);
-    });
+        .then((response) => {
+            console.log(response);
+        }).catch((err) => {
+            console.log(err);
+        });
 }
 DOM.buttonDelete.onclick = () => deleteId(DOM.inputDeleteId.value);

@@ -15,10 +15,10 @@ const put = (id) => {
         album: DOM.inputUpdateAlbum.value,
         size: DOM.inputUpdateSize.value
     })
-    .then((response) => {
-        console.log(response);
-    }).catch((err) => {
-        console.log(err);
-    });
+        .then((response) => {
+            console.log(response);
+        }).catch((err) => {
+            console.log(err);
+        });
 }
 DOM.buttonUpdate.onclick = () => put(DOM.inputUpdateId.value);
