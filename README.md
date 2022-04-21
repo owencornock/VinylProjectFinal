@@ -14,15 +14,28 @@ For this project it was given an MVP to generate a hobby project with the CRUD a
 ### Overview
 The application was completed whilst keeping track using jira. This allowed for the project to be tracked whilst also keeping targets in place of what needs to be completed. A sprint was completed during the application in which user stories where made which included; tasks, epics, story points, success criteria and priorities. An example of jira is shown below:
 
-![img](https://i.imgur.com/3KfIxFp.png)
+___
 
-!(documentation\Jira2 Proj2.png)
+![img](https://i.imgur.com/3KfIxFp.png)
+<p align = "center">Jira</p> 
+
+___
+
+![img](https://i.imgur.com/iPPV9vW.png)
+<p align = "center">Jira 2</p> 
+
+___
 
 For the project it was required to have a functioning front and backend application that accepts CRUD functionality whilst connecting to a database. For my project I decieded to create a vinyl collection. This allowed the user to add, update, delete and read. The read function allows the user to read by id, artist, album and size of the vinyl.
 
 Before starting the project a risk assessment was completed with a shown risk assessment matrix. This allowed for any risks to be identified prior to starting the project and the solutions to be found. The Risk assessment can be found within the documentation folder. The following is the risk assessment matrix.
+<p align="center">
+<img src="https://i.imgur.com/IXXzno5.png">
+</p>
+<p align = "center">Matrix</p>
 
-!(documentation\Risk matrix proj2.png)
+___
+
 
 #### Prerequisites
 
@@ -36,11 +49,18 @@ To run the application the following is required:
 6. [**Jira**](https://www.atlassian.com/software/jira)
 7. [**GitHub**](https://github.com/)
 
+___
+
+
 ### Databases
 
 MySQL was used to store the data that is provided by the user. Columns for artist, albums and size were used. These inputs were tested during the inital phase via postman.
 
-!(documentation\Postman proj2.png)
+![img](https://i.imgur.com/gQdGJBo.png)
+<p align = "center">Postman</p>
+
+___
+
 
 ### Backend + Testing
 
@@ -69,7 +89,10 @@ The backend of the application can be run through the fat Jar which is available
 
 A UML has been produced for the backend to show the relationships between the classes. This can be seen as follows.
 
-!(documentation\UML Proj2.png)
+![img](https://i.imgur.com/2f0iN9C.png)
+<p align = "center">UML</p>
+
+___
 
 ### Frontend
 
@@ -81,9 +104,15 @@ JS allowed for the connection with the API which was simplified with axios.
 
 Examples of the pages are shown below: 
 
-!(documentation\HomePageProj2.png)
+![img](https://i.imgur.com/6sSoxFN.png)
+<p align = "center">Home Page</p>
 
-!(documentation\CreateProj2.png)
+___
+
+![img](https://i.imgur.com/VGpOBWd.png)
+<p align = "center">Create Page</p>
+
+___
 
 ### Built With
 
@@ -96,6 +125,12 @@ Examples of the pages are shown below:
 * JS
 * MockMVC
 
+___
+
 ### Authors
 
 * Owen Cornock - Project Completed 
+
+___
+
+
