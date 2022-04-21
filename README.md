@@ -14,7 +14,7 @@ For this project it was given an MVP to generate a hobby project with the CRUD a
 ### Overview
 The application was completed whilst keeping track using jira. This allowed for the project to be tracked whilst also keeping targets in place of what needs to be completed. A sprint was completed during the application in which user stories where made which included; tasks, epics, story points, success criteria and priorities. An example of jira is shown below:
 
-![Imgur](https://imgur.com/3KfIxFp)
+![img](https://i.imgur.com/3KfIxFp.png)
 
 !(documentation\Jira2 Proj2.png)
 
