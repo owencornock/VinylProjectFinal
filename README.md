@@ -2,6 +2,9 @@
 
 Owen Cornock
 Test Coverage: 97.9% 
+
+Jira Board Link - [**Jira**](https://owencornock.atlassian.net/jira/software/projects/PROJ/boards/4/backlog)
+
 ## Introduction:
 
 For this project it was given an MVP to generate a hobby project with the CRUD application which was studied during the training. During the project the following practices were used:
